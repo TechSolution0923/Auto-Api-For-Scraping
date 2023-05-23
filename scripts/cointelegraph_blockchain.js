@@ -1,6 +1,5 @@
-import puppeteer from "puppeteer";
-import Scrape from '../models/Scrape';
-
+const puppeteer = require("puppeteer");
+const Scrape = require('../models/Scrape');
 
 
 const getQuotes = async () => {

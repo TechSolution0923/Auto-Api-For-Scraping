@@ -1,7 +1,8 @@
 const puppeteer = require("puppeteer");
+const Scrape = require('../models/Scrape');
 const { writeFileSync } = require("fs");
 const { parse } = require('json2csv');
-const Scrape = require('../models/Scrape');
+
 
 /*const saveAsCSV = (csvData) => {
   const csv = parse(csvData)
