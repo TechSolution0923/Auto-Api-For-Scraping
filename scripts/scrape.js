@@ -3,10 +3,10 @@ const { writeFileSync } = require("fs");
 const { parse } = require('json2csv');
 const Scrape = require('../models/Scrape');
 
-const saveAsCSV = (csvData) => {
+/*const saveAsCSV = (csvData) => {
   const csv = parse(csvData)
   writeFileSync('result.csv', csv);
-}
+}*/
 
 const getQuotes = async () => {
   const browser = await puppeteer.launch({
